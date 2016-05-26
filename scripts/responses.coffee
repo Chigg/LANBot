@@ -18,6 +18,9 @@ module.exports = (robot) ->
 
   robot.hear /\~cal/i, (msg) ->
     msg.send "http://goo.gl/lXHqbv"
+    
+  robot.hear /\~coc/i, (msg) ->
+    msg.send "<=====3"
 
   robot.hear /\~bylaws/i, (msg) ->
     msg.send "https://github.com/TexasLAN/bylaws"
